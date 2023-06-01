@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+  }
+  
+.column {
+    flex-basis: calc(50% - 5px);
+    flex: 50%;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 10px;
+}
